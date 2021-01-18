@@ -1,0 +1,11 @@
+﻿  pch.cpp
+  Msg.cpp
+C:\Users\Сергей\Desktop\cgi-master\MsgServer\Msg.h(42,43): error C2397: Преобразование из "unsigned __int64" в "unsigned int" требует сужающего преобразования.
+C:\Users\Сергей\Desktop\cgi-master\MsgServer\Msg.h(42,1): warning C4267: инициализация: преобразование из "size_t" в "unsigned int"; возможна потеря данных
+C:\Users\Сергей\Desktop\cgi-master\MsgServer\Msg.cpp(16,5): error C2664: "BOOL CAsyncSocket::Connect(const SOCKADDR *,int)": невозможно преобразовать аргумент 1 из "const char [10]" в "LPCTSTR"
+C:\Users\Сергей\Desktop\cgi-master\MsgServer\Msg.cpp(16,17): message : Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\atlmfc\include\afxsock.h(144,7): message : см. объявление "CAsyncSocket::Connect"
+  CppClient.cpp
+C:\Users\Сергей\Desktop\cgi-master\MsgServer\Msg.h(42,43): error C2397: Преобразование из "unsigned __int64" в "unsigned int" требует сужающего преобразования.
+C:\Users\Сергей\Desktop\cgi-master\MsgServer\Msg.h(42,1): warning C4267: инициализация: преобразование из "size_t" в "unsigned int"; возможна потеря данных
+  Создание кода...
